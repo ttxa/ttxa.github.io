@@ -1,0 +1,28 @@
+.wrapper {
+	background-color: #ffffff;
+	width: 420px;
+	margin: 0 auto;
+	border: 1.5px solid #cecece;   
+	padding:40px 46px 40px;
+}
+h1 {
+	font-size: 14pt;
+	text-align: center;
+}
+
+.imgTT {
+
+	text-align: center;
+}
+
+.line, ul {
+	border-bottom: 1.5px solid #858585; 
+	padding-bottom: 20px;
+}
+
+
+body {
+	line-height: 20px;
+	font-size: 13.5pt;
+	background-color: #eeeeee;
+}
