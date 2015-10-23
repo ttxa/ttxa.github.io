@@ -1,0 +1,29 @@
+.wrapper {
+	background-color: #ffffff;
+	width: 420px;
+	margin: 0 auto;
+	border: 1.5px solid #cecece;   
+	padding:40px 46px 40px;
+}
+h1 {
+	font-size: 14pt;
+	text-align: center;
+}
+p, ul{
+	margin-left:10px;
+}
+span{
+	display: block;
+}
+.imgTT {
+
+	text-align: center;
+}
+.line{
+	border-top: 1.5px solid #858585; 
+}
+body {
+	line-height: 20px;
+	font-size: 13.5pt;
+	background-color: #eeeeee;
+}
