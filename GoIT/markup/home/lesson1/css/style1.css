@@ -9,18 +9,19 @@ h1 {
 	font-size: 14pt;
 	text-align: center;
 }
-
+p, ul{
+	margin-left:10px;
+}
+span{
+	display: block;
+}
 .imgTT {
 
 	text-align: center;
 }
-
-.line, ul {
+.line{
 	border-bottom: 1.5px solid #858585; 
-	padding-bottom: 20px;
 }
-
-
 body {
 	line-height: 20px;
 	font-size: 13.5pt;
