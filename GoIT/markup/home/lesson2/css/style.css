@@ -1,0 +1,38 @@
+body{
+	background-color:#f9f9f9;
+
+}
+.wrapper{
+	width:1064px;
+	background-color:#ffffff;
+	border-right:1px solid #dbdbdb;
+	border-left:1px solid #dbdbdb;
+	margin: auto;
+}
+.img{
+	padding: 49px 87px;
+	border: 1px solid #dbdbdb;
+	margin: 40px 51px;
+	float: right;
+
+}
+.logo{
+	padding: 49px;
+}
+.nav_menu{
+	font:14px sans-serif;
+	width: 965px;
+	background-color: #535252;
+	margin: auto;
+	text-align: left;
+	overflow: hidden;
+}
+a{
+	text-decoration: none;
+	color:#ffffff;
+}
+
+.nav_menu ul li{
+	display: inline-block;
+	padding-right: 60px;
+}
