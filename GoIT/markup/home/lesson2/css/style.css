@@ -27,7 +27,7 @@ body{
 	text-align: left;
 	overflow: hidden;
 }
-a{
+.nav_menu ul li a{
 	text-decoration: none;
 	color:#ffffff;
 }
@@ -35,4 +35,37 @@ a{
 .nav_menu ul li{
 	display: inline-block;
 	padding-right: 60px;
+}
+.left_menu{
+	font:14px sans-serif;
+	text-align: left;
+	margin-right: 5px;
+}
+.left_menu ul li a{
+	text-decoration: none;
+	color: #7a7878;
+}
+.left_menu ul li{
+	display: block;
+	color: #000000;
+}
+
+.footer{
+	font:14px sans-serif;
+	width: 965px;
+	background-color: #e1e1e1;
+	margin: auto;
+	text-align: left;
+	overflow: hidden;
+}
+.footer ul li a{
+	text-decoration: none;
+	color: #000000;
+}
+.footer ul li{
+	display: inline-block;
+	padding-right: 60px;
+}
+p{
+	text-align: right;
 }
