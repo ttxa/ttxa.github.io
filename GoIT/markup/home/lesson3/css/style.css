@@ -1,117 +1,134 @@
 body{
-	background-color:#f9f9f9;
+	 background-color:#f9f9f9;
 
 }
 
 .wrapper{
-	width:972px;
-	background-color:#ffffff;
-	border-right:1px solid #dbdbdb;
-	border-left:1px solid #dbdbdb;
-	margin: 0 auto;
-	padding: 50px 46px;
-	-webkit-box-shadow: 0px 0px 4px 0px rgba(219,219,219,1);
-	-moz-box-shadow: 0px 0px 4px 0px rgba(219,219,219,1);
-	box-shadow: 0px 0px 4px 0px rgba(219,219,219,1);
+	 width:972px;
+	 background-color:#ffffff;
+	 border-right:1px solid #dbdbdb;
+	 border-left:1px solid #dbdbdb;
+	 margin: 0 auto;
+	 padding: 50px 46px;
+	 -webkit-box-shadow: 0px 0px 4px 0px rgba(219,219,219,1);
+	 -moz-box-shadow: 0px 0px 4px 0px rgba(219,219,219,1);
+	 box-shadow: 0px 0px 4px 0px rgba(219,219,219,1);
 }
 
+/*HEADER*/
 
-.nav_menu{
-	background-color: #4f4e4e;
-	overflow: hidden;
-	margin-top: 40px;
+.logo{
+	margin-bottom: 40px;
 }
-.nav_menu li {
-	float: left;
+.navigation{
+	 background: linear-gradient(to top, #444343,#5e5e5e);
 }
-.nav_menu a{
-	display: block;
-	color: #ffffff;
-	text-decoration: none;
-	font: 14px sans-serif;
-	line-height: 40px;
-	padding:0 40px;
+.navigation li{
+	 float: left;
+	 margin:0 1px;
 }
-.nav_menu li:hover{
-	background-color: #2f2f2f;
-	border-left: 1px solid #838383;
-	border-right: 1px solid #838383;
+.clearfix:after{
+     content:'';
+     clear:both;
+     display:block;
+}
+.navigation a{
+	 color: #ffffff;
+	 text-decoration: none;
+	 font: 14px sans-serif;
+	 line-height: 40px;
+	 padding:0 40px;
+}
+.navigation li:hover{
+	 border-right:1px solid #dbdbdb;
+     border-left:1px solid #dbdbdb;
+     background: linear-gradient(to top, #2e2e2e,#4a4a4a);
+     margin:0;
 }
 
+/*SIDEBAR*/
 
-.left_menu{
-	float: left;
-	width: 240px;
-	border: 1px solid #c8c8c8;
+.sidebar{
+	 float: left;
+	 border: 1px solid #c8c8c8;
+	 margin-top: 45px;
 }
-.left_menu li{
-	border-top: 1px solid #c8c8c8;
+.sidebar a{ 
+	 display: block; 
+	 width: 214px; 
+	 padding: 0 0 0 23px; 
+	 line-height: 39px; 
+	 text-decoration: none; 
+	 color: #656363;
 }
-.left_menu li:first-child{
+.sidebar li{
+	 border-top: 1px solid #c8c8c8;
+}
+.sidebar li a:hover{
+     width: 202px;
+     padding: 0 0 0 35px;
+     background-color: #f9f9f9;
+     color: #2c2c2c;
+     -webkit-transition-duration: 0.3s;
+     -o-transition-duration: 0.3s;
+     -moz-transition-duration: 0.3s;
+     transition-duration: 0.3s;
+}
+.sidebar li:first-child{
 	border: none;
 }
-.left_menu a{
-	line-height: 40px;
-	color: #7a7878;
-	text-decoration: none;
-	padding-left: 40px;
-}
-.left_menu li:hover{
-	background-color: #f9f9f9;
-}
-.left_menu a:hover{
-	color: #2c2c2c;
-	padding-left: 45px;
-}
 
+/*CONTENT*/
 
 .content{
-	float: right;
-	width: 674px;
-	border: 1px solid #c8c8c8;
+	 float:right;
+	 width: 678px;
+	 margin-top: 45px;
 }
-.img{
-	text-align: center;
-	padding: 46px 87px;
-}
-.container{
-	padding: 40px 0;
-	overflow: hidden;
+.content_img{
+     border: 1px solid #c8c8c8;
+     text-align: center;
+	 padding: 46px 87px;
 }
 .description{
-	float: right;
-	width: 596px;
-	padding: 20px 40px 0 40px;
-	line-height: 21px;
-	font-size: 13px;
-	color: #2c2c2c;
-
+	 padding: 35px 20px 0 20px;
+	 font-size: 10pt;
+	 line-height: 15pt;
+	 color: #2c2c2c;
+	 font-family: sans-serif;
 }
 
+/*FOOTER*/
 
 .footer{
-	padding: 40px 0;
+	 width:923px;
+	 float: left;
+	 height: 40px; 
+	 margin-top: 60px;
+	 padding: 0 24px; 
+	 background-color: #e1e1e1;
 }
-.footer_menu{
-	background-color: #e1e1e1;
-	overflow: hidden;
+.footer li{
+	 float: left;
+     margin:0 40px;
 }
-.footer_menu li{
-	float: left;
+.footer li:first-child{ 
+	 margin-left: 0; 
+}
+.footer li a,.copy a{ 
+	display: block; 
+	color: #2c2c2c; 
+	text-decoration: none; 
+	font: 13px sans-serif; 
+	line-height: 40px;
+}
+.copy{
+	float: right;
 
 }
-.footer_menu li:hover{
-	text-decoration: underline;
+.footer li:hover{
+text-decoration: underline;
 }
-.footer_menu a{
-	display: block;
-	color: #2c2c2c;
-	text-decoration: none;
-	font: 13px sans-serif;
-	line-height: 40px;
-	padding:0 45px;
-}
-.footer li:last-child{
-	float: right;
-	text-decoration: none;
+.copy a:hover{
+	color: #bc0000;
 }
