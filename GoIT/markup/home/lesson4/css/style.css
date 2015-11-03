@@ -1,0 +1,126 @@
+
+.wrapper{
+     margin: 35px auto;
+     width: 1000px;
+     background-color: #ffffff;
+     font-family: Tahoma, sans-serif;
+     -webkit-box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 1);
+     -moz-box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 1);
+     box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 1);
+ }
+.clearfix:after{
+     content:'';
+     clear:both;
+     display:block;
+}
+/*HEADER*/
+
+.logo{
+	 float: left;
+}
+.contacts{
+	 float: right;
+	 margin: 10px 30px;
+	 font-size: 10pt;
+	 color: #41a1b9;
+}
+.contacts li:first-child{
+	font-weight: bold;
+}
+.navigation{
+	 border-top: 1px solid #cacbcb;
+	 border-bottom: 2px solid #000000;
+	 background: linear-gradient(to top, #373737,#303030);
+}
+.navigation li{
+	 float: left;
+	 display: inline;
+	 position: relative;
+}
+.navigation a{
+	 display: block;
+	 color: #ffffff;
+	 text-decoration: none;
+	 font-size: 12pt;
+	 line-height: 40px;
+	 padding:0 30px;
+}
+.navigation a:hover{
+	text-decoration: underline;
+}
+.dropdown{
+	position: absolute;
+	top: 40px;
+	width: 160px;
+	background: linear-gradient(to top, #373737,#303030);
+	display: none;
+}
+/*.dropdown li{
+	width: 160px;
+}*/
+.dropdown li a{
+	width: 162px;
+	line-height: 25px;
+	padding:5px 0px;
+	text-align: center;
+}
+.show:hover .dropdown{
+	display: block;
+}
+
+
+/*CONTENT*/
+.content{
+	 width: 1000px;
+	 overflow: hidden;
+}
+
+.info{
+	 width: 200px;
+	 float: left;
+	 padding: 10px 10px 0px;
+	 font-family: Tahoma, sans-serif;
+	 font-size: 10pt;
+	 background-color: #edeef0;
+	 color: #424c43;
+	 line-height: 25px;
+	 text-align: center;
+	 border: 1.5px solid #c7cacf;
+	 padding-bottom: 20000px;
+	 margin-bottom: -20000px;
+
+}
+.info li:first-child{
+	 font-size: 16pt;
+	 font-weight: bold;
+}
+
+.center{
+	 width: 556px;
+	 float: left;
+	 background-color: #ffffff;
+	 padding-bottom: 20000px;
+	 margin-bottom: -20000px;
+}
+.news{
+	 width: 200px;
+	 float: right;
+	 padding: 10px 10px 0px;
+	 font-family: Tahoma, sans-serif;
+	 font-size: 10pt;
+	 background-color: #edeef0;
+	 color: #424c43;
+	 line-height: 25px;
+	 text-align: center;
+	 border: 1.5px solid #c7cacf;
+	 padding-bottom: 20000px;
+	 margin-bottom: -20000px;
+}
+.news li:first-child{
+	 font-size: 16pt;
+	 font-weight: bold;
+}
+
+/*FOOTER*/
+
+
