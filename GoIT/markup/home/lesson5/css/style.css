@@ -1,0 +1,44 @@
+html{
+	height: 100%;
+}
+body{
+	background-image: url('../img/background.jpg');
+	height: 100%;
+	background-size: cover;
+}
+.header{
+	background-image: url('../img/header-background.jpg');
+}
+.header li{
+	position: relative;
+    float: right;
+    list-style: none;
+}
+.header li a{
+	position: relative;
+	padding: 0px 30px;
+	display: block;
+	line-height: 35px;
+	color: #60b5ed;
+	text-decoration: none;
+	font-size: 14pt;
+}
+
+#anchor-header:before,
+#anchor-header img {
+    content: url('../img/lcon1.png');
+    float: left;
+    position: absolute;
+    left: -13px;
+    top: 2px;
+    
+}
+.header li a:hover{
+	background-color: #4eabda;
+	color: #ffffff;
+}
+.clearfix:after{
+     content:'';
+     clear:both;
+     display:block;
+}
