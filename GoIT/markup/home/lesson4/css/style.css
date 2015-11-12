@@ -1,14 +1,10 @@
 body{
-	 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#128aa7+0,14cee1+8,81e4ef+12,f7fdfe+17,f7fdfe+18,39bccd+18,1090b0+35,0c739f+100 */
-	 background: rgb(18,138,167); /* Old browsers */
-     background: -moz-linear-gradient(top,  rgba(18,138,167,1) 0%, rgba(20,206,225,1) 8%, rgba(129,228,239,1) 12%, rgba(247,253,254,1) 17%, rgba(247,253,254,1) 18%, rgba(57,188,205,1) 18%, rgba(16,144,176,1) 35%, rgba(12,115,159,1) 100%); /* FF3.6+ */
-     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(18,138,167,1)), color-stop(8%,rgba(20,206,225,1)), color-stop(12%,rgba(129,228,239,1)), color-stop(17%,rgba(247,253,254,1)), color-stop(18%,rgba(247,253,254,1)), color-stop(18%,rgba(57,188,205,1)), color-stop(35%,rgba(16,144,176,1)), color-stop(100%,rgba(12,115,159,1))); /* Chrome,Safari4+ */
-     background: -webkit-linear-gradient(top,  rgba(18,138,167,1) 0%,rgba(20,206,225,1) 8%,rgba(129,228,239,1) 12%,rgba(247,253,254,1) 17%,rgba(247,253,254,1) 18%,rgba(57,188,205,1) 18%,rgba(16,144,176,1) 35%,rgba(12,115,159,1) 100%); /* Chrome10+,Safari5.1+ */
-     background: -o-linear-gradient(top,  rgba(18,138,167,1) 0%,rgba(20,206,225,1) 8%,rgba(129,228,239,1) 12%,rgba(247,253,254,1) 17%,rgba(247,253,254,1) 18%,rgba(57,188,205,1) 18%,rgba(16,144,176,1) 35%,rgba(12,115,159,1) 100%); /* Opera 11.10+ */
-     background: -ms-linear-gradient(top,  rgba(18,138,167,1) 0%,rgba(20,206,225,1) 8%,rgba(129,228,239,1) 12%,rgba(247,253,254,1) 17%,rgba(247,253,254,1) 18%,rgba(57,188,205,1) 18%,rgba(16,144,176,1) 35%,rgba(12,115,159,1) 100%); /* IE10+ */
-     background: linear-gradient(to bottom,  rgba(18,138,167,1) 0%,rgba(20,206,225,1) 8%,rgba(129,228,239,1) 12%,rgba(247,253,254,1) 17%,rgba(247,253,254,1) 18%,rgba(57,188,205,1) 18%,rgba(16,144,176,1) 35%,rgba(12,115,159,1) 100%); /* W3C */
-     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#128aa7', endColorstr='#0c739f',GradientType=0 ); /* IE6-9 */
-
+	
+background: rgb(26,207,227); 
+background: -moz-linear-gradient(top,  rgba(26,207,227,1) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 17%, rgba(255,255,255,1) 18%, rgba(18,205,225,1) 19%, rgba(22,151,181,1) 63%, rgba(14,128,166,1) 84%, rgba(12,115,159,1) 100%); 
+background: -webkit-linear-gradient(top,  rgba(26,207,227,1) 0%,rgba(255,255,255,1) 15%,rgba(255,255,255,1) 17%,rgba(255,255,255,1) 18%,rgba(18,205,225,1) 19%,rgba(22,151,181,1) 63%,rgba(14,128,166,1) 84%,rgba(12,115,159,1) 100%); 
+background: linear-gradient(to bottom,  rgba(26,207,227,1) 0%,rgba(255,255,255,1) 15%,rgba(255,255,255,1) 17%,rgba(255,255,255,1) 18%,rgba(18,205,225,1) 19%,rgba(22,151,181,1) 63%,rgba(14,128,166,1) 84%,rgba(12,115,159,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1acfe3', endColorstr='#0c739f',GradientType=0 ); 
 }
 .wrapper{
      margin: 35px auto;
@@ -33,7 +29,6 @@ body{
 .logo{
 	 float: left;
 	 margin: 0px 30px;
-	 margin-bottom: -1px;
 }
 .contacts{
 	 float: right;
@@ -90,8 +85,17 @@ body{
     text-decoration: none;
     font-size: 14px;
 }
-.navigation	ul+a:after{
-  /*content: '\25be';*/
+.navigation li:nth-child(2)::after{
+	background-image: url('../img/triangle.png');
+	background-position: center center;
+	content:"";
+	position:absolute;
+	width:4px;
+	height:5px;
+ 	right:15px;
+	top:50%;
+}
+/*.navigation	ul+a::after{
   content: '';
   display: block;
   position: absolute;
@@ -100,10 +104,9 @@ body{
   right: 10px;
   height: 6px;
   width: 5px;
-  background: url(../img/triangle.png) 0 0 no-repeat;
-}
+  background-image: url('../img/triangle.png') 0 0 no-repeat;
+}*/
 .navigation  ul{
-  /*display: none;*/
   position: absolute;
   left: 23px;
   visibility: hidden;
@@ -126,7 +129,7 @@ body{
 /*CONTENT*/
 
 .content{
-	 width: 1000px;
+	
 	 overflow: hidden;
 }
 
@@ -134,22 +137,27 @@ body{
 	 width: 200px;
 	 float: left;
 	 padding: 10px 10px 0px;
-	 font-family: Tahoma, sans-serif;
-	 font-size: 10pt;
 	 background-color: #edeef0;
-	 color: #424c43;
-	 line-height: 25px;
-	 text-align: center;
 	 border: 1.5px solid #c7cacf;
 	 padding-bottom: 20000px;
 	 margin-bottom: -20000px;
 
 }
-.info li:first-child{
+.info p, .news p{
+	font-family: Tahoma, sans-serif;
+	 font-size: 10pt;
+	 color: #424c43;
+	 line-height: 25px;
+	 text-align: center;
+
+}
+h2{
 	 font-size: 16pt;
 	 font-weight: bold;
-}
+	 text-align: center;
+	 color: #424c43;
 
+}
 .center{
 	 width: 556px;
 	 float: left;
@@ -161,19 +169,10 @@ body{
 	 width: 200px;
 	 float: right;
 	 padding: 10px 10px 0px;
-	 font-family: Tahoma, sans-serif;
-	 font-size: 10pt;
 	 background-color: #edeef0;
-	 color: #424c43;
-	 line-height: 25px;
-	 text-align: center;
 	 border: 1.5px solid #c7cacf;
 	 padding-bottom: 20000px;
 	 margin-bottom: -20000px;
-}
-.news li:first-child{
-	 font-size: 16pt;
-	 font-weight: bold;
 }
 
 /*FOOTER*/
