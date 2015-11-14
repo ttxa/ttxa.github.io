@@ -39,7 +39,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1acfe3', end
 .contacts li:first-child{
 	font-weight: bold;
 }
-
 .contries{
 	 float: right;
 	 margin: 10px 30px;
@@ -48,6 +47,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1acfe3', end
 	 position: relative;
      float: left;
      list-style: none;
+     text-align: center;
 }
 .contries li a{
 	 position: relative;
@@ -85,27 +85,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1acfe3', end
     text-decoration: none;
     font-size: 14px;
 }
-.navigation li:nth-child(2)::after{
-	background-image: url('../img/triangle.png');
-	background-position: center center;
-	content:"";
-	position:absolute;
-	width:4px;
-	height:5px;
- 	right:15px;
-	top:50%;
+.nanavigation img{
+	display: block;
 }
-/*.navigation	ul+a::after{
-  content: '';
-  display: block;
-  position: absolute;
-  top: 50%;
-  margin-top: -2px;
-  right: 10px;
-  height: 6px;
-  width: 5px;
-  background-image: url('../img/triangle.png') 0 0 no-repeat;
-}*/
 .navigation  ul{
   position: absolute;
   left: 23px;
@@ -129,7 +111,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1acfe3', end
 /*CONTENT*/
 
 .content{
-	
 	 overflow: hidden;
 }
 
@@ -141,7 +122,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1acfe3', end
 	 border: 1.5px solid #c7cacf;
 	 padding-bottom: 20000px;
 	 margin-bottom: -20000px;
-
 }
 .info p, .news p{
 	font-family: Tahoma, sans-serif;
@@ -149,14 +129,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1acfe3', end
 	 color: #424c43;
 	 line-height: 25px;
 	 text-align: center;
-
 }
 h2{
 	 font-size: 16pt;
 	 font-weight: bold;
 	 text-align: center;
 	 color: #424c43;
-
 }
 .center{
 	 width: 556px;
@@ -178,7 +156,7 @@ h2{
 /*FOOTER*/
 
 .footer{
-	padding: 12px;
+	margin: 12px;
 }
 p{
 	text-align: center;
