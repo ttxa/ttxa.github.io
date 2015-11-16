@@ -2,7 +2,7 @@ html{
 	height: 100%;
 }
 body{
-	background-image: url('../img/background.jpg');
+	background: url('../img/background.jpg') fixed top;
 	height: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -12,14 +12,14 @@ body{
 	font-size: 14px;
 }
 @font-face {
-    font-family: 'Helvetica Neue Cyr Thin';
-    src: url('../fonts/helveticaneuecyr-thin-webfont.eot');
-    src: url('../fonts/helveticaneuecyr-thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/helveticaneuecyr-thin-webfont.woff2') format('woff2'),
-         url('../fonts/helveticaneuecyr-thin-webfont.woff') format('woff'),
-         url('../fonts/helveticaneuecyr-thin-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+   	 font-family: 'Helvetica Neue Cyr Thin';
+     src: url('../fonts/helveticaneuecyr-thin-webfont.eot');
+     src: url('../fonts/helveticaneuecyr-thin-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/helveticaneuecyr-thin-webfont.woff2') format('woff2'),
+     url('../fonts/helveticaneuecyr-thin-webfont.woff') format('woff'),
+     url('../fonts/helveticaneuecyr-thin-webfont.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
 }
 .header{
 	background-image: url('../img/header-background.jpg');
@@ -95,10 +95,10 @@ body{
 	width: 280px;
 	border-bottom: 1px solid #474746;
 	color: #fff; 
+	text-indent: 20px;
 }
 .form input:focus{
 	background-color: #1b5288;
-	/*border: 1px solid #1b5288;*/
 	-webkit-box-shadow: 0px 0px 8px 0px rgba(104, 155, 204, 1);
 	-moz-box-shadow:    0px 0px 8px 0px rgba(104, 155, 204, 1);
 	box-shadow:         0px 0px 8px 0px rgba(104, 155, 204, 1);  
@@ -147,14 +147,10 @@ label{
   left: 10px;
   margin-right: -50%;
 }
+.form div:nth-child(8){
+	padding-right: 70px;
+}
 
-/*input[type=button]{
-	 color: #ffffff;
-	 background: -webkit-linear-gradient(top, rgb(61,86,150) 0%,rgb(48,66,114) 100%);
-     border-radius: 3px;
-     cursor: pointer;
-     border-top: 1px solid #7589bb;
-}*/
 .btn{
 	 width: 150px;
 	 height: 34px;
@@ -203,55 +199,3 @@ label{
   vertical-align: middle;
   background: -webkit-linear-gradient(left, rgba(31,61,115,1) 0%,rgba(31,61,115,1) 50%,rgba(76,104,169,1) 51%,rgba(76,104,169,1) 100%);
 }
-/*.btn{
-	 color: #ffffff;
-	 background: -webkit-linear-gradient(top, rgb(80,174,219) 0%,rgb(46,122,196) 100%);
-     border-radius: 2px;
-     cursor: pointer;
-}
-.btnFB{
-	 color: #ffffff;
-	 background: -webkit-linear-gradient(top, rgb(61,86,150) 0%,rgb(48,66,114) 100%);
-     border-radius: 2px;
-     cursor: pointer;
-     border-top: 1px solid #7589bb;
-}*/
-/*.header ul{
-	float: right;
-}
-.header li{
-	position: relative;
-    float: left;
-    list-style: none;
-    font-weight: bolder;
-}
-.header li a{
-	position: relative;
-	padding: 0px 30px;
-	display: block;
-	line-height: 35px;
-	color: #60b5ed;
-	text-decoration: none;
-}*/
-
-/*.header li:nth-child(6)::before{
-	background-image: url('../img/lcon1.png');
-	background-position: center center;
-	content:"";
-	position:absolute;
-	width:41px;
-	height:31px;
- 	right:115px;
-	top:5%;
-}*/
-/*.header li:last-child{
-	background: linear-gradient(to bottom, rgba(80,175,220,1) 0%,rgba(60,143,206,1) 50%,rgba(46,122,196,1) 100%);
-	margin-right: 20px;
-	height: 33px;
-	border: 1px solid #4299d2;
-}
-.header li a:hover 
-{
-	background-color: #4eabda;
-	color: #fff;
-}*/
