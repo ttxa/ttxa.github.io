@@ -29,7 +29,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1acfe3', end
 .logo{
 	 float: left;
 	 margin: 0px 30px;
+	 position: relative;
 }
+h1{
+	position: absolute;
+	top: 100px;
+	left: 80px;
+	color: #0d7993;
+	font-size: 12px;
+}
+
 .contacts{
 	 float: right;
 	 margin: 10px 30px;
@@ -44,13 +53,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1acfe3', end
 	 margin: 10px 30px;
 }
 .contries li{
-	/* position: relative;*/
+	
      float: left;
      list-style: none;
      text-align: center;
 }
 .contries li a{
-	 /*position: relative;*/
+	 
 	 display: block;
 	 font-size: 8pt;
 	 padding: 10px;
