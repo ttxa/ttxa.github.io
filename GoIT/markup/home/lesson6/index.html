@@ -8,93 +8,58 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="wrapper">
+<div class="wrapper clearfix">
 <header>
-	<section class="pnone ">
+	<section class="pnone">
 		<ul>
 			<li ><span>(044)123-45-67 </span></li>
 			<li ><span>(044)567-89-10 </span></li>
 		</ul>
 	</section>
-	<section class="form-log ">
-		<form name="login" action="#" method="POST">
-			<input name="login" type="text" placeholder="логин">
-			<input name="password" type="placeholder" placeholder="пароль">
-		</form>
+	<div class="wrapper_login">
+		<section>
+			<form name="login" action="#" method="POST">
+				<input name="login" type="text" placeholder="логин" size="11">
+				<input name="password" type="placeholder" placeholder="пароль" size="11">
+			</form>
+		</section>
+		<ul class="menu_login">
+			<li><a href="#">вход</a></li>
+			<li><a href="#">регистрация</a></li>
+			<li><a href="#">забыли пароль?</a></li>
+		</ul>
+	</div>	
 		
-			<ul class="menu_login ">
-				<li><a href="#">вход</a></li>
-				<li><a href="#">регистрация</a></li>
-				<li><a href="#">забыли пароль?</a></li>
-			</ul>
-		
-		
-			<ul class="sprite ">
+			<ul class="sprite">
 				<li><a class="home" href="#"></a></li>
 				<li><a class="map" href="#"></a></li>
 				<li><a class="mail" href="#"></a></li>
 			</ul>
 		
-	</section>
-	<div class="banner">
+	
+	
+</header>
+<div class="banner">
 		<a href="#"></a>
 	</div>
-</header>
 <nav>
-	<ul class="menu_mane ">
+<div class="menu_main clearfix">
+	<ul>
 		<li><a href="#">О КОМПАНИ</a></li>
 		<li><a href="#">ОПЛАТА</a></li>
 		<li><a href="#">ДОСТАВКА</a></li>
 		<li><a href="#">СТАТЬИ</a></li>
 		<li><a href="#">КОНТАКТЫ</a></li>
 	</ul>
+
+<div class="basket"> 
+	<ul>
+		<li><a href="#">товаров:0</a></li>
+		<li><a href="#">на сумму:0.00 грн.</a></li>
+	</ul>
+	</div>
+</div>
 </nav>
-
-
-	<!-- <div class="wrapper">
-
-		<header>
-			<section>
-				<div class="contacts">
-					<ul>
-						<li>(044)123-45-67</li>
-						<li>(044)567-89-10</li>
-					</ul>
-				</div>
-			</section>
-			<form name="logform" action="#" method="POST">
-				<input name="login" type="text" placeholder="логин">
-				<input name="password" type="placeholder" placeholder="пароль">
-				<div class="enter">
-				<ul>
-					<li><a href="#">вход</a></li>
-					<li><a href="#">регистрация</a></li>
-					<li><a href="#">забыли пароль?</a></li>
-				</ul>
-			</div>
-			</form>
-			
-		</header>
-
-
-		<nav>
-			<div class="top-menu clearfix">
-				<ul>
-					
-					<li><a href="#">О КОМПАНИ</a></li>
-					<li><a href="#">ОПЛАТА</a></li>
-					<li><a href="#">ДОСТАВКА</a></li>
-					<li><a href="#">СТАТЬИ</a></li>
-					<li><a href="#">КОНТАКТЫ</a></li>
-				</ul>
-				<div class="basket"> 
-					<ul>
-						<li><a href="#">товаров:0</a></li>
-						<li><a href="#">на сумму:0.00 грн.</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
 
 		<aside></aside>
 
