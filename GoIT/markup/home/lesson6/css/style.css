@@ -1,0 +1,127 @@
+.wrapper
+{
+	width: 1000px;
+	margin: 15px auto;
+	font-family: "Lucida Sans Unicode", sans-serif;
+}
+.clearfix:after{
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+  width: 100%;
+}
+
+/*HEADER*/
+
+
+.banner{
+	
+	height: 236px;
+	background: url(../img/index_banner.jpg) 0 0 no-repeat;
+}
+.pnone{
+	float: left;
+	position: relative;
+}
+.pnone li{
+	float: left;
+	padding-left: 10px;
+	
+}
+.pnone li:first-child{
+	margin-left: 22px;
+}
+.pnone span{
+	display: block;
+	color: #5e696d;
+}
+.pnone:first-child::before{
+	background-image: url('../img/icone_phone.png');
+	background-position: center center;
+	content:"";
+	position:absolute;
+	width:22px;
+	height:22px;
+	left:8px;
+	bottom: -1px;
+}
+.sprite{
+	position: relative;
+	overflow: hidden;
+}
+.sprite li{
+	float: left;
+}
+.sprite a{
+	display: block;
+	width: 15px;
+	height: 11px;
+	background: url(../img/icone_sprite.png) 0 0 no-repeat;
+}
+.sprite .map{
+	background-position: -19px 0;
+}
+.sprite .mail{
+	background-position: -39px 0;
+}
+.sprite a:hover{
+	background-position: 0 -12px;
+}
+.sprite .map:hover{
+	background-position: -19px -12px;
+}
+.sprite .mail:hover{
+	background-position: -39px -12px;
+}
+
+/*CONTENT*/
+
+/*header{
+	background-color: red;
+	float: left;
+}
+.top-menu{
+	background: -webkit-linear-gradient(top, rgba(72,81,96,1) 1%,rgba(32,35,38,1) 26%,rgba(2,2,2,1) 99%);
+	border: 1px solid #14192d;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 7px 7px 0px rgba(171, 171, 171, 0.7);
+	-moz-box-shadow:    0px 7px 7px 0px rgba(171, 171, 171, 0.7);
+	box-shadow:         0px 7px 7px 0px rgba(171, 171, 171, 0.7);
+	
+	width: 910px;
+	margin: 20px auto;
+}
+.top-menu li{
+	float: left;  
+}
+.basket{
+	float: right;
+}
+.basket li a{
+	font-size: 11px;
+}
+
+.clearfix:after{
+     content:'';
+     clear:both;
+     display:block;
+}
+.top-menu a{
+	text-decoration: none;
+	line-height: 33px;
+	font-size: 13.64px;
+	color: #879093;
+	padding:5px 10px;
+	margin-left: 1px;
+}
+.top-menu  li a:hover{
+	border-radius: 20px;
+	background: -webkit-linear-gradient(top, rgba(31,103,135,1) 1%,rgba(22,78,112,1) 50%,rgba(12,51,87,1) 99%);
+	color: #ffffff;
+	border-bottom: 1px solid #092036;
+	border-top: 1px solid #25617b;
+}
+*/
+
+
