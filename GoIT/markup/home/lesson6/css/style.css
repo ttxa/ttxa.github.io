@@ -195,20 +195,53 @@ aside{
 }
 .main{
 	 float: left;
-	 width: 530px;
-	 height: 630px;
+	 width: 500px;
+	 height: 600px;
 	 background: rgb(228,231,232); /* Old browsers */
      background: -moz-linear-gradient(top,  rgba(228,231,232,1) 0%, rgba(200,208,212,1) 25%, rgba(166,182,189,1) 49%, rgba(148,167,176,1) 100%); /* FF3.6-15 */
      background: -webkit-linear-gradient(top,  rgba(228,231,232,1) 0%,rgba(200,208,212,1) 25%,rgba(166,182,189,1) 49%,rgba(148,167,176,1) 100%); /* Chrome10-25,Safari5.1-6 */
      background: linear-gradient(to bottom,  rgba(228,231,232,1) 0%,rgba(200,208,212,1) 25%,rgba(166,182,189,1) 49%,rgba(148,167,176,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4e7e8', endColorstr='#94a7b0',GradientType=0 ); /* IE6-9 */
-
+     padding: 15px 10px;
+ }
+figure {
+	display: inline-block;
+	margin: 2px 16px 40px;
+}
+figure img {
+	display: block;
+	border: 1px solid #bfc6c8;
+	border-radius: 8px;
+	padding: 4px 25px;
+	background-color: #fff;
+}
+figcaption span{
+	font-size: 15px;
+	color: #206988;
+	text-align: center;
+}
+.price{
+	color: #114165;
+	font: 16px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+}
+figcaption{
+	font-size: 12px;
+	text-align: center;
 }
 
-
-
-
-
+.content li a{
+	text-decoration: none;
+	color: #465961;
+	font-size: 12px;
+}
+.content li{
+	color: #465961;
+	background: url(../img//icone_grey.png) no-repeat 0 4px; /* Параметры фона */
+    padding-left: 10px;
+}
 
 /*FOOTER*/
 
