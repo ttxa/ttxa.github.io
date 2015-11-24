@@ -168,5 +168,86 @@ section:first-child::before{
 	border-top: 1px solid #25617b;
 }
 
+.search_car, .search_tires, .search_wheels{
+	float: left;
+	height: 105px;
+	padding: 20px 13px 9px 19px;
+	border-radius: 16px;
+	border: 2px solid #b8b8b9;
+	margin-bottom: 15px;
+}
+
+.search_car{
+	width: 380px;
+	margin-right: 14px;
+}
+.search_tires{
+	width: 157px;
+	margin-right: 10px;
+}
+.search_wheels{
+	width: 232px;
+}
+aside{
+	 float: left;
+	 width: 185px;
+	 height: 630px;
+}
+.main{
+	 float: left;
+	 width: 530px;
+	 height: 630px;
+	 background: rgb(228,231,232); /* Old browsers */
+     background: -moz-linear-gradient(top,  rgba(228,231,232,1) 0%, rgba(200,208,212,1) 25%, rgba(166,182,189,1) 49%, rgba(148,167,176,1) 100%); /* FF3.6-15 */
+     background: -webkit-linear-gradient(top,  rgba(228,231,232,1) 0%,rgba(200,208,212,1) 25%,rgba(166,182,189,1) 49%,rgba(148,167,176,1) 100%); /* Chrome10-25,Safari5.1-6 */
+     background: linear-gradient(to bottom,  rgba(228,231,232,1) 0%,rgba(200,208,212,1) 25%,rgba(166,182,189,1) 49%,rgba(148,167,176,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4e7e8', endColorstr='#94a7b0',GradientType=0 ); /* IE6-9 */
+
+}
 
 
+
+
+
+
+/*FOOTER*/
+
+footer{
+	background: #213a4d;
+	height: 80px;
+	padding: 9px 293px;
+}
+
+.footer_menu{
+	float: left;
+
+}
+.footer_menu li{
+	float: left;
+	border-left: 1px solid #879093;
+}
+.footer_menu a{
+	text-decoration: none;
+	font-size: 11px;
+	color: #bec6c9;
+	padding: 0px 14px;
+
+}
+.footer_menu  li a:hover{
+	color: #458fab;
+}
+.copy{
+	padding: 30px 80px;
+}
+
+.copy a{
+	text-decoration: none;
+	color: #7f4740;
+	font-size: 10px;
+}
+.footer_photo {
+	
+	height: 90px;
+	background: url(../img/icone_brands.png) center center no-repeat;
+
+}
