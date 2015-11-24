@@ -23,11 +23,7 @@ body{
 }
 .header{
 	background-image: url('../img/header-background.jpg');
-}
-.header-wrapper{
-	margin: 0 auto;
-	width: 1124px;
-	float: right;
+	padding-right: 20px;
 }
 .header1, .header2{
 	float: right;
@@ -37,6 +33,7 @@ body{
     float: left;
     list-style: none;
     font-weight: bolder;
+    display: block;
 }
 .header1 li a, .header2 li a{
 	position: relative;
@@ -62,7 +59,6 @@ body{
 
 .header1 li:last-child{
 	background: linear-gradient(to bottom, rgba(80,175,220,1) 0%,rgba(60,143,206,1) 50%,rgba(46,122,196,1) 100%);
-	margin-right: 20px;
 	height: 34px;
 	border: solid #4299d2; border-width: 0px 1px 1px;
 }
@@ -74,7 +70,9 @@ body{
 	width:40px;
 	height:32px;
  	right:120px;
-	top:5%;
+	top:5%;	
+}
+.header1 li:nth-child(1)::before{
 	border-left: 1px solid #56a2dc;
 }
 .header2 li:last-child{
@@ -128,7 +126,8 @@ label{
 #sibscribe{
 	width: 20px;
 }
-.form div:first-child{
+
+.title{
 	border-bottom: 2px rgba(255,255,255,0.5) solid;
 }
 .lines p:first-child {
