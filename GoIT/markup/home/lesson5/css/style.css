@@ -21,6 +21,11 @@ body{
      font-weight: normal;
      font-style: normal;
 }
+.header-wrapper{
+	width: 1124px;
+	margin:0 auto;
+	float: right;
+}
 .header{
 	background-image: url('../img/header-background.jpg');
 	padding-right: 20px;
@@ -41,7 +46,7 @@ body{
 	line-height: 35px;
 	color: #60b5ed;
 	text-decoration: none;
-	padding: 0px 15px;
+	padding: 0px 18px;
 }
 .header1 li a{
 	color: #fff;
@@ -161,7 +166,7 @@ label{
 	padding-right: 70px;
 }
 
-.btn{
+form .btn{
 	 width: 150px;
 	 height: 34px;
 	 color: #ffffff;
@@ -171,7 +176,9 @@ label{
      -webkit-box-shadow: 0px 0px 1px 1px rgba(86,162,221,1);
      -moz-box-shadow: 0px 0px 1px 1px rgba(86,162,221,1);
      box-shadow: 0px 0px 1px 1px rgba(86,162,221,1);
-}
+     text-indent: 0px;
+ }
+
 .btnFB{
 	 width: 280px;
 	 height: 35px;
