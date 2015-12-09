@@ -215,7 +215,7 @@ aside{
 }
 .main{
 	 float: left;
-	 width: 500px;
+	 width: 508px;
 	 height: 600px;
 	 background: rgb(228,231,232); /* Old browsers */
      background: -moz-linear-gradient(top,  rgba(228,231,232,1) 0%, rgba(200,208,212,1) 25%, rgba(166,182,189,1) 49%, rgba(148,167,176,1) 100%); /* FF3.6-15 */
@@ -223,6 +223,7 @@ aside{
      background: linear-gradient(to bottom,  rgba(228,231,232,1) 0%,rgba(200,208,212,1) 25%,rgba(166,182,189,1) 49%,rgba(148,167,176,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4e7e8', endColorstr='#94a7b0',GradientType=0 ); /* IE6-9 */
      padding: 15px 10px;
+     margin: 0px 5px 0px 4px;
  }
 figure {
 	display: inline-block;
@@ -307,6 +308,16 @@ figcaption{
      box-shadow: 0px 0px 1px 1px rgba(86,162,221,1);
      border-radius: 25px;
 }
+
+.brands label {
+	display: block;
+	padding-left: 40px;
+    margin: 8px;
+}
+
+
+
+
 /*FOOTER*/
 
 footer{
