@@ -23,12 +23,12 @@ body{
 }
 .header-wrapper{
 	width: 1124px;
-	margin:0 auto;
-	float: right;
+	margin-left: 750px;
+	
 }
 .header{
 	background-image: url('../img/header-background.jpg');
-	padding-right: 20px;
+	
 }
 .header1, .header2{
 	float: right;
@@ -188,13 +188,22 @@ form .btn{
      border-radius: 2px;
      cursor: pointer;
      border-top: 1px solid #7589bb;
+
 }
+
 .bigF{
 	float: left;
 	font-weight: bold;
 	font-size: 26px;
 	padding: 0px 10px;
+
 }
+
+.bigF a{
+	 text-decoration: none;
+	 color: #ffffff;
+}
+
 .btn:hover{
 	background: -webkit-linear-gradient(top, rgb(80,174,219) 0%,rgb(46,122,196) 40%);
 }
@@ -206,12 +215,14 @@ form .btn{
 	font-weight: bold;
 	font-size: 14px;
 	padding: 0px 5px;
+	 color: #ffffff;
 }
 .bla{
 	float: left;
 	font-weight: bold;
 	font-size: 14px;
 	padding: 8px 15px;
+	color: #ffffff;
 }
 .log:before {
   content: '';
