@@ -19,15 +19,21 @@
 	<div class="wrapper_login">
 		<section>
 			<form name="login" action="#" method="POST">
-				<input name="login" type="text" placeholder="логин" size="11">
-				<input name="password" type="placeholder" placeholder="пароль" size="11">
+				<input name="login" type="text" placeholder="логин" size="11" required>
+				<input name="password" type="password" placeholder="пароль" size="11" required>
+                
+				   <input class="login button" name="enter" type="submit" value="вход">
+				   <button> <span>регистрация</span> </button>
+                   
 			</form>
+
 		</section>
-		<ul class="menu_login">
+		<a class="pass_link" href="#">забыли пароль?</a>
+		<!-- <ul class="menu_login">
 			<li class="menu_item"><a class="menu_link" href="#">вход</a></li>
 			<li class="menu_item"><a class="menu_link" href="#">регистрация</a></li>
 			<li class="menu_item"><a class="menu_link pass_link" href="#">забыли пароль?</a></li>
-		</ul>
+		</ul> -->
 	</div>	
 		
 			<ul class="sprite">
@@ -43,13 +49,15 @@
 		<a href="#"></a>
 	</div>
 <nav class="menu_main clearfix">
-	<ul>
+    
+	<ul class="menu">
 		<li><a href="#">О КОМПАНИ</a></li>
 		<li><a href="#">ОПЛАТА</a></li>
 		<li><a href="#">ДОСТАВКА</a></li>
 		<li><a href="#">СТАТЬИ</a></li>
 		<li><a href="#">КОНТАКТЫ</a></li>
 	</ul>
+
 
 <div class="basket"> 
 	<ul>

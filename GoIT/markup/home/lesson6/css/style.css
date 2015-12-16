@@ -86,25 +86,42 @@ section:first-child::before{
 
 /*оформление вход\регистрация\забыли пароль*/
 
-.menu_item { 
+form .button, button {
+	
+	border: none;
+	background: none;
+	color: #fff;
+	font-size: 11px;
+	padding: 2px;
+}
+.pass_link {
+     color: #bfbfbf;
+	 text-decoration: underline;
+	 font-size: 12px;
+	 line-height: 25px;
+	 margin-left: 20px;
+	 
+}
+/*.menu_item { 
 	float: left;
 	display: block;
-}
-.menu_link {
+}*/
+/*.menu_link {
+	float: right;
     display: block;
     line-height: 25px;
     color: #fff;
     text-decoration: none;
     font-size: 10px;
     padding-left: 7px;
-}
+}*/
 
-.pass_link {
+/*.pass_link {
      color: #bfbfbf;
 	 text-decoration: underline;
 	 font-size: 12px;
 	 padding-left: 28px;
-}
+}*/
 
 /*спрайт главная карта мыло*/
 
@@ -164,6 +181,9 @@ section:first-child::before{
 .menu_main li{
 	float: left;  
 }
+.menu {
+	margin-left: 130px;
+}
 .basket {
 	float: right;
 }
@@ -176,8 +196,8 @@ section:first-child::before{
 	line-height: 31px;
 	font-size: 13.64px;
 	color: #879093;
-	padding:5px 10px;
-	margin-left: 1px;
+	padding: 10px 15px;
+	
 }
 .menu_main li a:hover{
 	border-radius: 20px;
