@@ -1,9 +1,11 @@
-@media screen and (max-width: 320px) { 
+@media screen and (min-width: 320px) { 
+	
 	.one {
 	background: url('../img/1_backGround.jpg') center center;
 	height: 525px;
 	background-size: cover;
 	background-repeat: no-repeat;
+	
 }
 
 .two {
@@ -18,3 +20,29 @@
      display: none;
 }
 }
+
+@media screen and (min-width: 480px) {
+.one {
+	background: url('../img/1_backGround.jpg') center center;
+	height: 525px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+.two {
+	background: rgb(118,82,131); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(118,82,131,1) 0%, rgba(94,68,106,1) 50%, rgba(56,42,63,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(118,82,131,1) 0%,rgba(94,68,106,1) 50%,rgba(56,42,63,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(118,82,131,1) 0%,rgba(94,68,106,1) 50%,rgba(56,42,63,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#765283', endColorstr='#382a3f',GradientType=0 ); /* IE6-9 */
+	height: 600px;
+}
+.four{
+     ;
+}
+}
+
+.wrapper{
+		margin: 0 auto;
+	}
