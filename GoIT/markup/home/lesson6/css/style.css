@@ -87,20 +87,31 @@ section:first-child::before{
 /*оформление вход\регистрация\забыли пароль*/
 
 form .button, button {
-	
 	border: none;
 	background: none;
 	color: #fff;
 	font-size: 11px;
 	padding: 2px;
+	cursor: pointer;
 }
+
+button:before{
+	background-image: url('../img/icone_line.png');
+	background-position: center center;
+	content:"";
+	position:absolute;
+	width:2px;
+	height:10px;
+ 	right: 71px;
+    top: 32%;
+}
+
 .pass_link {
      color: #bfbfbf;
 	 text-decoration: underline;
 	 font-size: 12px;
 	 line-height: 25px;
 	 margin-left: 20px;
-	 
 }
 /*.menu_item { 
 	float: left;
@@ -167,6 +178,9 @@ form .button, button {
 
 /*CONTENT*/
 
+.menu {
+	margin-left: 130px;
+}
 
 .menu_main{
 	background: -webkit-linear-gradient(top, rgba(72,81,96,1) 1%,rgba(32,35,38,1) 26%,rgba(2,2,2,1) 99%);
@@ -176,19 +190,10 @@ form .button, button {
 	-moz-box-shadow:    0px 7px 7px 0px rgba(171, 171, 171, 0.7);
 	box-shadow:         0px 7px 7px 0px rgba(171, 171, 171, 0.7);
 	/*width: 910px;*/
-	margin: 8px auto;
+	margin: 8px auto 10px;
 }
 .menu_main li{
 	float: left;  
-}
-.menu {
-	margin-left: 130px;
-}
-.basket {
-	float: right;
-}
-.basket li a{
-	font-size: 11px;
 }
 
 .menu_main a{
@@ -196,7 +201,7 @@ form .button, button {
 	line-height: 31px;
 	font-size: 13.64px;
 	color: #879093;
-	padding: 10px 15px;
+	padding: 5px 15px;
 	
 }
 .menu_main li a:hover{
@@ -207,18 +212,50 @@ form .button, button {
 	border-top: 1px solid #25617b;
 }
 
+.basket {
+	float: right;
+}
+
+.basket li {
+	position: relative;
+}
+
+.menu_main .basket a{
+	font-size: 11px;
+	padding: 10px 15px;
+}
+
+.basket li a:hover{
+	border-radius: none;
+	background: none;
+	color: #ffffff;
+	border: none;
+}
+
+.basket li:first-child::before{
+	background-image: url('../img/icone_basket.png');
+	background-position: center center;
+	content:"";
+	position:absolute;
+	width:20px;
+	height:20px;
+ 	right: 70px;
+    top: 15%;
+}
+
 .search_car, .search_tires, .search_wheels{
 	float: left;
-	height: 105px;
-	padding: 20px 13px 9px 19px;
-	border-radius: 16px;
-	border: 2px solid #b8b8b9;
-	margin-bottom: 15px;
+    height: 105px;
+    padding: 20px 13px 9px 19px;
+    border-radius: 16px;
+    border: 1px solid #b8b8b9;
+    margin-bottom: 15px;
 }
 
 .search_car{
-	width: 380px;
-	margin-right: 14px;
+	width: 382px;
+    margin-right: 13px;
+    margin-left: 3px;
 }
 .search_tires{
 	width: 157px;
@@ -346,19 +383,34 @@ footer{
 	padding: 9px 293px;
 }
 
+
+
 .footer_menu{
 	float: left;
 }
+
 .footer_menu li{
 	float: left;
-	border-left: 1px solid #879093;
 }
+
+:before{
+	background-image: url('../img/icone_line.png');
+	background-position: center center;
+	content:"";
+	position:absolute;
+	width:2px;
+	height:10px;
+ 	right: 71px;
+    top: 32%;
+}
+
 .footer_menu a{
 	text-decoration: none;
 	font-size: 11px;
 	color: #bec6c9;
 	padding: 0px 14px;
 }
+
 .footer_menu  li a:hover{
 	color: #458fab;
 }
