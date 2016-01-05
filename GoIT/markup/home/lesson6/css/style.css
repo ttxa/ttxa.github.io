@@ -1,6 +1,6 @@
 .wrapper
 {
-	width: 908px;
+	width: 920px;
 	margin: 15px auto;
 	font-family: "Lucida Sans Unicode", sans-serif;
 	
@@ -42,7 +42,7 @@
 	width:22px;
 	height:22px;
 	left:6px;
-	bottom: -1px;
+	top:-5px;
 }
 
 /*формочка для логина и регистрации*/
@@ -76,12 +76,13 @@ input{
 
 section:first-child::before{
 	background: url(../img/icone_man.png) 0 0 no-repeat;
-	background-position: center center;
+	
 	content:"";
 	position:absolute;
 	width:14px;
 	height:18px;
-	left:5px;
+	left:7px;
+	margin-top: 2px;
 }
 
 /*оформление вход\регистрация\забыли пароль*/
@@ -113,26 +114,7 @@ button:before{
 	 line-height: 25px;
 	 margin-left: 20px;
 }
-/*.menu_item { 
-	float: left;
-	display: block;
-}*/
-/*.menu_link {
-	float: right;
-    display: block;
-    line-height: 25px;
-    color: #fff;
-    text-decoration: none;
-    font-size: 10px;
-    padding-left: 7px;
-}*/
 
-/*.pass_link {
-     color: #bfbfbf;
-	 text-decoration: underline;
-	 font-size: 12px;
-	 padding-left: 28px;
-}*/
 
 /*спрайт главная карта мыло*/
 
@@ -189,8 +171,8 @@ button:before{
 	-webkit-box-shadow: 0px 7px 7px 0px rgba(171, 171, 171, 0.7);
 	-moz-box-shadow:    0px 7px 7px 0px rgba(171, 171, 171, 0.7);
 	box-shadow:         0px 7px 7px 0px rgba(171, 171, 171, 0.7);
-	/*width: 910px;*/
-	margin: 8px auto 10px;
+    margin: 8px 1px 10px;
+    width: 905px;
 }
 .menu_main li{
 	float: left;  
@@ -280,17 +262,17 @@ aside{
      background: linear-gradient(to bottom,  rgba(228,231,232,1) 0%,rgba(200,208,212,1) 25%,rgba(166,182,189,1) 49%,rgba(148,167,176,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4e7e8', endColorstr='#94a7b0',GradientType=0 ); /* IE6-9 */
      padding: 15px 10px;
-     margin: 0px 5px 0px 4px;
+     margin: 0px 4px 0px 4px;
  }
 figure {
 	display: inline-block;
-	margin: 2px 16px 40px;
+	margin: 2px 14px 30px;
 }
 figure img {
 	display: block;
 	border: 1px solid #bfc6c8;
 	border-radius: 8px;
-	padding: 4px 25px;
+	padding: 5px 28px;
 	background-color: #fff;
 }
 figcaption span{
@@ -374,16 +356,27 @@ figcaption{
 
 
 
-
 /*FOOTER*/
+
+.photo_line {
+    width: 905px;
+    margin: 42px auto 24px auto;
+}
+
+.photo_line ul {
+	text-align: center;
+}
+
+.photo_line ul li{
+	margin-right: 7px;
+	display: inline-block;
+}
 
 footer{
 	background: #213a4d;
 	height: 80px;
 	padding: 9px 293px;
 }
-
-
 
 .footer_menu{
 	float: left;
@@ -393,7 +386,7 @@ footer{
 	float: left;
 }
 
-:before{
+/*:before{
 	background-image: url('../img/icone_line.png');
 	background-position: center center;
 	content:"";
@@ -402,7 +395,7 @@ footer{
 	height:10px;
  	right: 71px;
     top: 32%;
-}
+}*/
 
 .footer_menu a{
 	text-decoration: none;
@@ -425,8 +418,3 @@ footer{
 	font-size: 10px;
 }
 
-.footer_photo {
-	
-	height: 90px;
-	background: url(../img/icone_brands.png) center center no-repeat;
-}
