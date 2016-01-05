@@ -386,6 +386,16 @@ footer{
 	float: left;
 }
 
+.footer_menu li::after{
+	background-image: url('../img/icone_line.png');
+	background-position: center center;
+	content:"";
+	position:absolute;
+	width:2px;
+	height:10px;
+	margin-top: 5px;
+}
+
 /*:before{
 	background-image: url('../img/icone_line.png');
 	background-position: center center;
